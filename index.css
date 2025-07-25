@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2{
+    font-size: 2.7em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+.color-acento {
+    color: blue;
+}
+
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10 30 px;
+    border-radius: 10px;
+    border: 2px solid rgb(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgb(0,0,0,0.5);
+    color: black;
+    background-color: rgb(34, 36, 153);
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(32, 29, 163);
+}
+
+header.logo {
+    margin: 0%;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: red;
+    font-size: 1.7em;
+}
+
+header.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header.nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header:hover {
+    color: rgb(177, 5, 137);
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: black;
+    background-image: url(Media/b832cf39-8511-4506-bcda-467b620b4037.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1 {
+    color: black;
+}
+
+#somos-sedated {
+
+}
+
+#somos-sedated.container {
+    text-align: center;
+    padding: 200px 12px;
+}
