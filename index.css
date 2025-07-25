@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Times New Roman', Times, serif;
@@ -113,4 +116,78 @@ header:hover {
 #somos-sedated.container {
     text-align: center;
     padding: 200px 12px;
+}
+
+#nuestros-modelos {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#nuestros-modelos.container {
+   padding: 100px 10px;
+}
+
+#nuestros-modelos h2 {
+    margin-top: 0;
+    font-size: 3em;
+}
+
+#nuestros-modelos p {
+    display: none;
+
+}
+
+#nuestros-modelos .cartas {
+
+}
+
+.carta:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgb(0, 0, 0, 0.5),
+        rgb(128, 60, 60) 
+    )
+    ,url(Media/JORDAN-BARRET.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+} 
+
+.carta:nth-child(2) {
+    background-image: url(Media/descargar.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carta:nth-child(3) {
+    background-image: url(Media/nata-montana.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#caracteristicas li{
+    margin: 15px, 0px;
+    font-weight: bold;
+
+}
+
+#caracteristicas.container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#aplicar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: black;
 }
