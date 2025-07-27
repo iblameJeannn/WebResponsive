@@ -109,6 +109,10 @@ header:hover {
     color: black;
 }
 
+#hero button {
+    font-size: 1.75em;
+}
+
 #somos-sedated {
 
 }
@@ -190,4 +194,56 @@ header:hover {
     flex-direction: column;
     height: 90vh;
     color: black;
+}
+
+#aplicar h2 {
+    font-size: 4vw;
+}
+
+#aplicar button {
+    font-size: 2vw;
+}
+
+footer {
+    background-color: rgb(230, 230, 230);
+}
+
+
+/* Se crea la sección para ajustar el contenido en la versión de web,
+ dependiendo del tamaño de la pantalla*/
+
+@media (min-width: 720px) {
+    header {
+        position: fixed;
+        width: 100%;
+    }
+    header.container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #somos-sedated .container {
+        justify-content: center;
+    }
+
+    #somos-sedated.texto {
+        width: 50%;
+        text-align: initial;
+        padding: 0px 30px;
+    }
+
+    #somos-sedated.image-container {
+        background-image: url(Media/b832cf39-8511-4506-bcda-467b620b4037.jpeg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+
+    }
 }
